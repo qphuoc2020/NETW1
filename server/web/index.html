@@ -55,32 +55,33 @@
             text-decoration: none;
             color: #ed1c24; 
             font-weight: bold;
-            padding: 10px 20px;
-            border: 1px solid #ed1c24;
-            border-radius: 5px;
+            padding: 12px 20px;
+            border: 2px solid #ed1c24;
+            border-radius: 8px;
             transition: all 0.3s;
             display: inline-block;
             width: 80%;
         }
-
+        
         a:hover {
             background-color: #ed1c24;
             color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(237, 28, 36, 0.3);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="/web/hutech-logo.png" alt="HUTECH Logo" class="logo">
+        <img src="/hutech-logo.png" alt="HUTECH Logo" class="logo">
         
-        <h1>Đây là trang chủ của NETW1</h1>
-        <p style="color: #666;">
+        <h1>Hệ thống Server NETW1</h1>
         <hr>
         
-        <h3>Chức năng Server:</h3>
+        <h3>Bảng điều khiển:</h3>
         <ul>
-            <li><a href="/hello">Xem API Hello World</a></li>
-            <li><a href="/api/time">Xem API Ngày giờ hệ thống</a></li>
+            <li><a href="/hello?name=HUTECH">Xem API Hello World</a></li>
+            <li><a href="/api/time">Xem Giờ Hệ Thống</a></li>
         </ul>
     </div>
 </body>
